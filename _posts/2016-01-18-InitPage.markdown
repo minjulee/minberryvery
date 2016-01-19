@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "InitPage!"
+date:   2016-01-19 18:36:19 +0900
+categories: jekyll update
+---
+sakfljasdkfjas
+dfjsa
+dfj
+sad
+dfs
+dajfj
+sa

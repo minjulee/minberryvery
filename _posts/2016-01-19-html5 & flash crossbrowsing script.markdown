@@ -8,8 +8,10 @@ categories: javascript
 사용자에게 동영상을 제공하기 위해 여러가지 방법이 쓰이고 있다. 그중 video, flash를 지원하는 것이 보편적인 방법이며
 다양한 브라우저와 ie 버전에 대응하는 PLAY, STOP 기능 및 현재 시간, 종료 시간을 얻는 스크립트를 모듈화했다.
 
-## Javascript Source
 
+
+## Javascript Source
+{% highlight javascript linenos %}
     // Editor : LMJ
     // Date   : 2016-01-12
     // Desc   : 모든 브라우저에서 동영상을 볼 수 있다.
@@ -131,7 +133,9 @@ categories: javascript
         $("#spanT2").text(tgm.video.GetTotalTime());
     }
 
-### Html Source
+{% endhighlight %}
+## Css Source
+{% highlight css linenos %}
 
     <style>
         .video_wrapper{
@@ -152,6 +156,10 @@ categories: javascript
             display: none;
         }
     </style>
+
+{% endhighlight %}
+## HTML Source
+{% highlight html linenos %}
 
     <p>
         현재<span id="spanT1">0</span>&nbsp;&nbsp;-&nbsp;&nbsp;종료<span id="spanT2">0</span>
@@ -180,6 +188,7 @@ categories: javascript
         </div>
     </form>
 
+{% endhighlight %}
 ## 테스트 환경
 
 VMWare(windowsXP ie7, windowsXP ie8, windows7 ie9),
